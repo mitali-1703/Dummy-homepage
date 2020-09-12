@@ -1,0 +1,94 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url(play.jpg) no-repeat;
+	color:white;
+}
+.left{
+	/*border: 2px solid red;*/
+	display: inline-block;
+	left: 34px;
+	top: 20px;
+	position: absolute;
+}
+.left img{
+	width: 40px;
+	/*filter: invert(100%);*/
+	margin: auto;
+	display: block;
+}
+.left div{
+	text-align: justify;
+	line-height: 3px;
+}
+.mid{
+	margin: 20px auto;
+	display: block;
+	/*border: 2px solid green;*/
+	width: 60%;
+
+}
+.nav{
+	display: inline-block;
+
+}
+.nav li{
+	font-size: 20px;
+	display: inline-block;
+
+
+}
+.nav li a{
+	text-decoration: none;
+	color: white;
+	padding: 34px 15px;
+}
+.nav li a:hover{
+text-decoration: underline;
+color: grey;
+}
+.right{
+	/*border: 2px solid yellow;*/
+	position: absolute;
+	right: 34px;
+	top: 20px;
+
+}
+.btn{
+	background-color: black;
+	color: white;
+	border-radius:10px;
+	cursor: pointer;
+    border: 2px solid grey;
+    padding: 5px;
+    margin: 0px 6px;
+}
+.btn:hover{
+	color: grey;
+}
+.container{
+	border: 2px solid white;
+	width: 36%;
+    /*height: 340px;*/
+   border-radius: 20px;
+    margin: 50px 14px;
+    padding: 20px;
+}
+h1{
+	text-align: center;
+}
+.form-type input{
+	text-align: center;
+    padding: 6px;
+    width: 260px;
+    border-radius: 10px;
+    margin: 6px auto;
+    display: block;
+}
+.container button{
+padding: 6px;
+    width: 270px;
+margin: 7px auto;
+    display: block;
+
+}
